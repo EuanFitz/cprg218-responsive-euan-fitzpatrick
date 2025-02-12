@@ -46,6 +46,7 @@ footer{
     text-align: center;
     padding: 1rem;
 }
+/* For tablets*/
 @media screen and (min-width:768px) {
     header{
         flex-direction: row;
@@ -63,7 +64,7 @@ footer{
         padding: 2rem;
     }
 }
-
+/* For desktop */
 @media screen and (min-width:1000px) {
     #container{
         flex-direction: row;
